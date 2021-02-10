@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Spacex-ReactProject/static/css/main.d4d76da1.chunk.css",
+    "main.js": "/Spacex-ReactProject/static/js/main.f3062530.chunk.js",
+    "main.js.map": "/Spacex-ReactProject/static/js/main.f3062530.chunk.js.map",
+    "runtime-main.js": "/Spacex-ReactProject/static/js/runtime-main.80e9bdf5.js",
+    "runtime-main.js.map": "/Spacex-ReactProject/static/js/runtime-main.80e9bdf5.js.map",
+    "static/js/2.ff38c771.chunk.js": "/Spacex-ReactProject/static/js/2.ff38c771.chunk.js",
+    "static/js/2.ff38c771.chunk.js.map": "/Spacex-ReactProject/static/js/2.ff38c771.chunk.js.map",
+    "index.html": "/Spacex-ReactProject/index.html",
+    "static/css/main.d4d76da1.chunk.css.map": "/Spacex-ReactProject/static/css/main.d4d76da1.chunk.css.map",
+    "static/js/2.ff38c771.chunk.js.LICENSE.txt": "/Spacex-ReactProject/static/js/2.ff38c771.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80e9bdf5.js",
+    "static/js/2.ff38c771.chunk.js",
+    "static/css/main.d4d76da1.chunk.css",
+    "static/js/main.f3062530.chunk.js"
+  ]
+}
