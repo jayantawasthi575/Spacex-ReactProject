@@ -1,13 +1,276 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.boxx {
+  height: 50vh;
+  /* background-size:100vw 100vh; */
+  background-size:100vw 50vh;
+  background-repeat: no-repeat;
+
+}
+.boxx,
+p {
+  color: white;
+}
+
+.box {
+  height: 100vh;
+  /* background-size:100vw 100vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.box,
+p {
+  color: white;
+}
+.p1 {
+  font-size: 25px;
+  align-self: center;
+  margin: 20px;
+  font-family: "Pangolin", cursive;
+}
+
+.nav {
+  display: flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 0;
+  /* background-color:blue; */
+}
+
+.nav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: "Pangolin", cursive;
+}
+.nav > ul,
+h1 {
+  /* border:1px solid red; */
+  padding: 20px;
+}
+.nav > button {
+  border: 1px solid black;
+  /* padding:20px; */
+  margin: 0px 90px;
+  height: 30px;
+  width: 20px;
+  font-size: 20px;
+  font-family: "Pangolin", cursive;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+}
+.nav_bbb{
+  text-decoration: none;
+  color: white;
+  /* border:1px solid red; */
+  padding: 4px 20px;
+  border-radius: 10px;
+  background-color: blue;
+}
+.nav_b {
+  text-decoration: none;
+  color: white;
+  /* border:1px solid red; */
+  padding: 4px 20px;
+  border-radius: 10px;
+}
+.nav_b:hover {
+  background-color: red;
+}
+.nav > button > a {
+  text-decoration: none;
+  color: white;
+  padding: 4px 20px;
+  border-radius: 10px;
+}
+/* .nav>ul>li{
+  border: 1px solid black;
+  margin-left:30px;
+  margin-right: 30px;
+} */
+.wwe {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15%;
+  font-family: "Pangolin", cursive;
+}
+
+.ard {
+  color: white;
+  /* flex-grow: 4; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* border:1px solid red;
+  padding:4%; */
+}
+
+.bottom {
+  display: flex;
+  background-color: black;
+}
+.bottom_para {
+  color: white;
+  /* flex-grow: 1; */
+  width:20%;
+}
+
+.bottom_para{
+  width:30%;
+  padding: 2%;
+}
+
+.card_render{
+ /* border:1px solid red; */
+  padding: 8%;
+  transition: all;
+}
+
+.card_render>a>img{
+  width:300px;
+}
+.card_data{
+
+ padding: 0px;
+ max-width: 300px;
+ color:white;
+
+}
+.nav_bb{
+  text-decoration: none;
+}
+.nav_bb:hover{
+  background-color: yellow;
+}
+.card_data:hover,.card_render>a>img:hover{
+  width: 350px;
+}
+
+.wwee{
+  font-size: 30px;
+  margin-top: 7%;
+  margin-left: 3%;
+  font-family: "Pangolin", cursive;
+}
+.once_more{
+  background-color: black;
+}
+.bottom_again{
+  
+  padding: 1%;
+  background-color: black;
+}
+
+.video_link{
+  display: flex;
+ padding: 1%;
+}
+.information{
+  font-size: 17px;
+  color: white;
+  padding: 1%;
+}
+.iframe_vid{
+  width:420px;
+  height: 315px;
+}
+@media (max-width:768px){
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  .box {
+    height: 100vh;
+    background-size:100vw 100vh;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+    /* background-color:blue; */
+  }
+  .p1 {
+    font-size: 40px;
+    align-self: center;
+    margin: 10px;
+    font-family: "Pangolin", cursive;
+  }
+  .nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    font-size: 20px;
+    font-family: "Pangolin", cursive;
+  }
+  /* .nav > button {
+    border: 1px solid black;
+    padding:20px;
+    margin: 0px 90px;
+    height: 30px;
+    width: 20px;
+    font-size: 20px;
+    font-family: "Pangolin", cursive;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+  } */
+  .nav>button{
+    visibility: hidden;
+  }
+  .wwe {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20;
+    font-family: "Pangolin", cursive;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  .bottom_para {
+    color: white;
+    /* flex-grow: 1; */
+    width:100vw;
+  }
+  .mobil{
+    
+    font-size: 0px;
+  }
+  .card_render{
+    /* border:1px solid red; */
+  padding:10% 0%;
+  transition: none;
+  
+  }
+   .card_render>a>img{
+    width:90vw;
+  }
+  .card_data{
+
+    padding: 0px;
+    max-width: 90vw;
+    color:white;
+   
+   }
+   .video_link{
+    display: flex;
+   flex-direction: column;
+    padding: 1%;
+  }
+  .iframe_vid{
+    width:90vw;
+    height: 40vh;
+  }
+   
 }
